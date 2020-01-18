@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        This is my Github Page
+       <h1>Significa</h1>
+       <img src="logo.png" alt="Logo" /> 
       </header>
     </div>
   );

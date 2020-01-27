@@ -3,9 +3,9 @@ import './FrontPage.css';
 
 function FrontPage() {
     return (
-        <div class="container">
-            <div class="row align-middle">
-                <div class="h-100 col-sm">
+        <div class="container d-flex h-100">
+            <div class="row justify-content-center align-self-center">
+                <div class="col-sm">
                     <h1>About Me</h1>
                     <img src="./about_me.jpg" alt="test img" class="firstimg" />
                 </div>

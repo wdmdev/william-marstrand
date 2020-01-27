@@ -3,18 +3,18 @@ import './FrontPage.css';
 
 function FrontPage() {
     return (
-        <div class="container d-flex h-100">
-            <div class="row justify-content-center align-self-center">
-                <div class="col-sm">
-                    <h1>About Me</h1>
+        <div class="container body">
+            <div class="row">
+                <div class="col-sm align-self-center">
+                    <h1 class="my-text">About Me</h1>
                     <img src="./about_me.jpg" alt="test img" class="firstimg" />
                 </div>
                 <div class="col-sm">
-                    <h1>My Projects</h1>
+                    <h1 class="my-text">My Projects</h1>
                     <img src="./mountain_sunset.jpg" alt="test img" class="firstimg" />
                 </div>
                 <div class="col-sm">
-                    <h1>Contact</h1>
+                    <h1 class="my-text">Contact</h1>
                     <img src="./contact.jpg" alt="test img" class="firstimg" />
                 </div>
             </div>

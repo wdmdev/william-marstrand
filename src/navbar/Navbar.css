@@ -1,0 +1,21 @@
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+.logo{
+    float: right;
+    padding-right: 15px;
+}
+.logo-img{
+    float: right;
+}
+.logo-text{
+    color: white;
+    float: right;
+    padding-left: 5px;
+}

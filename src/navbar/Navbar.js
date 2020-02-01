@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link
@@ -13,7 +13,7 @@ import FrontPage from '../frontpage/FrontPage';
 
 function NavBar() {
     return (
-        <Router>
+        <Router basename="/">
             <div className="pos-f-t">
                 <div className="collapse" id="navbarToggleExternalContent">
                     <div className="bg-dark p-4">
@@ -21,17 +21,22 @@ function NavBar() {
                             <div className="row">
                                 <div className="col-sm">
                                     <h3>
-                                        <Link to="#/about">About Me</Link>
+                                        <Link to="/home">Home</Link>
                                     </h3>
                                 </div>
                                 <div className="col-sm">
                                     <h3>
-                                        <Link to="#/projects">My Projects</Link>
+                                        <Link to="/about">About Me</Link>
                                     </h3>
                                 </div>
                                 <div className="col-sm">
                                     <h3>
-                                        <Link to="#/contact">Contact</Link>
+                                        <Link to="/projects">My Projects</Link>
+                                    </h3>
+                                </div>
+                                <div className="col-sm">
+                                    <h3>
+                                        <Link to="/contact">Contact</Link>
                                     </h3>
                                 </div>
                             </div>
@@ -48,6 +53,7 @@ function NavBar() {
                     </div>
                 </nav>
             </div>
+
             <Switch>
                 <Route path="/about">
                     <About />
@@ -57,6 +63,9 @@ function NavBar() {
                 </Route>
                 <Route path="/contact">
                     <Contact />
+                </Route>
+                <Route path="/home">
+                    <FrontPage />
                 </Route>
                 <Route path="/">
                     <FrontPage />

@@ -12,6 +12,14 @@
     border-radius: 5%;
 }
 
-.my-text{
+.mytext{
+    position: absoulte;
+    transform: translate(0%, 625%);
     color: white;
+    text-shadow: 2px 2px black;
+}
+
+.mybox{
+    position: relative;
+    text-align: center;
 }

@@ -6,10 +6,10 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import FrontPage from '../frontpage/FrontPage';
 import About from '../about/About';
 import Projects from '../projects/Projects';
 import Contact from '../contact/Contact';
+import FrontPage from '../frontpage/FrontPage';
 
 function NavBar() {
     return (
@@ -21,17 +21,17 @@ function NavBar() {
                             <div className="row">
                                 <div className="col-sm">
                                     <h3>
-                                        <Link to="/about">About Me</Link>
+                                        <Link to="#/about">About Me</Link>
                                     </h3>
                                 </div>
                                 <div className="col-sm">
                                     <h3>
-                                        <Link to="/projects">My Projects</Link>
+                                        <Link to="#/projects">My Projects</Link>
                                     </h3>
                                 </div>
                                 <div className="col-sm">
                                     <h3>
-                                        <Link to="/contact">Contact</Link>
+                                        <Link to="#/contact">Contact</Link>
                                     </h3>
                                 </div>
                             </div>

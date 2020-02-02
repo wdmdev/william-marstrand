@@ -7,15 +7,7 @@ a:visited{
 a:hover{
     color: gray;
 }
-.logo{
-    float: right;
-    padding-right: 15px;
-}
-.logo-img{
-    float: right;
-}
-.logo-text{
+.logotext{
     color: white;
-    float: right;
-    padding-left: 5px;
+    text-shadow: 2px 2px black;
 }

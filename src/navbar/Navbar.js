@@ -47,10 +47,10 @@ function NavBar() {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="logo">
-                        <p className="logo-text">Significa</p>
-                        <img src="./logo.png" width="5%" alt="logo" className="logo-img" />
-                    </div>
+                    <Link to="/home" class="navbar-brand">
+                        <img src="./logo.png" width="45" alt="logo" class="d-inline-block align-middle mr-2" />
+                        <span class="text-uppercase logotext">Significa</span>
+                    </Link>
                 </nav>
             </div>
 

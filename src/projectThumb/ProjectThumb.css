@@ -1,16 +1,12 @@
-.body{
-    margin-top: 10%;
-}
-
-.firstimg {
+.myimg {
     width: 100%;
     height: 300px;
     border-radius: 5%;
 }
 
-.myfronttext{
+.mytext{
     position: absoulte;
-    transform: translate(0%, 625%);
+    transform: translate(0%, 425%);
     color: white;
     text-shadow: 2px 2px black;
 }

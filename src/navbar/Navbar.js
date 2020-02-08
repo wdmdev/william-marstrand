@@ -14,45 +14,33 @@ import FrontPage from '../frontpage/FrontPage';
 function NavBar() {
     return (
         <Router basename="/">
-            <div className="pos-f-t">
-                <div className="collapse" id="navbarToggleExternalContent">
-                    <div className="bg-dark p-4">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-sm">
-                                    <h3>
-                                        <Link to="/home">Home</Link>
-                                    </h3>
-                                </div>
-                                <div className="col-sm">
-                                    <h3>
-                                        <Link to="/about">About Me</Link>
-                                    </h3>
-                                </div>
-                                <div className="col-sm">
-                                    <h3>
-                                        <Link to="/projects">My Projects</Link>
-                                    </h3>
-                                </div>
-                                <div className="col-sm">
-                                    <h3>
-                                        <Link to="/contact">Contact</Link>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div className="container">
+                    <ul className="navbar-nav">
+                        <li className="nav-item active">
+                            <Link to="/home" className="nav-link">Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/about" className="nav-link">About Me</Link>
+                        </li>
+                        <li className="nav-item">
+
+                            <Link to="/projects" className="nav-link">My Projects</Link>
+                        </li>
+                        <li className="nav-item">
+
+                            <Link to="/contact" className="nav-link">Contact</Link>
+                        </li>
+                    </ul>
                 </div>
-                <nav className="navbar navbar-dark bg-dark">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                <div className="col-sm"></div>
+                <div className="col-sm">
                     <Link to="/home" class="navbar-brand">
-                        <img src="./logo.png" width="45" alt="logo" class="d-inline-block align-middle mr-2" />
-                        <span class="text-uppercase logotext">Significa</span>
+                        <img src="./logo.png" width="45" alt="logo"  className="d-inline-block align-middle mr-2"/>
+                        <span className="text-uppercase logotext">Significa</span>
                     </Link>
-                </nav>
-            </div>
+                </div>
+            </nav>
 
             <Switch>
                 <Route path="/about">

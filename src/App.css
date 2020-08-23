@@ -1,13 +1,13 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-h1{
+p {
+    color: white;
+}
+
+h1, h2, h3, p {
   font-family: 'Courier New', Courier, monospace;
 }
 

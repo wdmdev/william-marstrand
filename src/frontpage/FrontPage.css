@@ -9,7 +9,7 @@
 }
 
 .myfronttext{
-    position: absoulte;
+    text-align: center;
     transform: translate(0%, 625%);
     color: white;
     text-shadow: 2px 2px black;

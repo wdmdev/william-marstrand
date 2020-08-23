@@ -34,12 +34,6 @@ function NavBar() {
                     </ul>
                 </div>
                 <div className="col-sm"></div>
-                <div className="col-sm">
-                    <Link to="/home" class="navbar-brand">
-                        <img src="./logo.png" width="45" alt="logo"  className="d-inline-block align-middle mr-2"/>
-                        <span className="text-uppercase logotext">Significa</span>
-                    </Link>
-                </div>
             </nav>
 
             <Switch>

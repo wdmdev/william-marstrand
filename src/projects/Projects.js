@@ -8,7 +8,7 @@ import ml_proj2 from './images/ML_proj_2.png';
 import ml_proj3 from './images/ML_proj_3.png';
 import copenhacks from './images/copenhacks_github.png';
 import asl from './images/ASL_github.jpg';
-import valhacks from './images/smart_cantine_github.png';
+import voice_conversion from './images/voice_conversion.jpg';
 
 function Projects() {
     return(
@@ -28,19 +28,19 @@ function Projects() {
         <div class="row">
             <div class="col-sm">
                 <a href="https://github.com/wdmdev/ML_proj_1" target="_blank" rel="noopener noreferrer">
-                    <img class="myimg" src={ml_proj1}/>
+                    <img class="myimg" src={ml_proj1} alt="Machine Learning Project 1" />
                     <h1 class="mytext"> Data exploration and visualization</h1>
                 </a>
             </div>
             <div class="col-sm">
                 <a href="https://github.com/wdmdev/ML_proj_2" target="_blank" rel="noopener noreferrer">
-                    <img class="myimg" src={ml_proj2}/>
+                    <img class="myimg" src={ml_proj2} alt="Machine Learning Project 2"/>
                     <h1 class="mytext">Evaluating classification and regression models</h1>
                 </a>
             </div>
             <div class="col-sm">
                 <a href="https://github.com/wdmdev/ML_proj_3" target="_blank" rel="noopener noreferrer">
-                    <img class="myimg" src={ml_proj3}/>
+                    <img class="myimg" src={ml_proj3} alt="Machine Learning Project 3" />
                     <h1 class="mytext">Clustering, anomaly detection, association mining</h1>
                 </a>
             </div>
@@ -48,20 +48,20 @@ function Projects() {
         <div class="row">
             <div class="col-sm">
                 <a href="https://github.com/wdmdev/Copenhacks2019" target="_blank" rel="noopener noreferrer">
-                    <img class="myimg" src={copenhacks}/>
+                    <img class="myimg" src={copenhacks} alt="Copenhacks Hackathon 2019"/>
                     <h1 class="mytext">Winner of Copenhack 2019</h1>
                 </a>
             </div>
             <div class="col-sm">
                 <a href="https://github.com/wdmdev/ASL-image-recognition" target="_blank" rel="noopener noreferrer">
-                    <img class="myimg" src={asl}/>
+                    <img class="myimg" src={asl} alt="ASL Image Recognition"/>
                     <h1 class="mytext">Recognizing ASL-Letters</h1>
                 </a>
             </div>
             <div class="col-sm">
-                <a href="https://github.com/wdmdev/valhacks2019" target="_blank" rel="noopener noreferrer">
-                    <img class="myimg" src={valhacks}/>
-                    <h1 class="mytext">Valhacks 2019 Contester</h1>
+                <a href="https://github.com/wdmdev/dtu_voice_conversion_project" target="_blank" rel="noopener noreferrer">
+                    <img class="myimg" src={voice_conversion} alt="voice conversion project"/>
+                    <h1 class="mytext">Voice Conversion Project @ DTU</h1>
                 </a>
             </div>
         </div>

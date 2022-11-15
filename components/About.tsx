@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Code from "./IntroCode";
 import Image, { StaticImageData } from "next/image";
 
 export default function About() {
@@ -8,21 +10,30 @@ export default function About() {
                 <div className="flex-full">
                     <AboutCard
                         title="Projects"
-                        icon="/icons/code.svg"
+                        icon="/icons/beaker.svg"
                         description="I generate real life value from data."
-                        projects={7} />
+                        link="/Projects" />
                     <AboutCard
                         title="Blog"
-                        icon="/icons/design.svg"
+                        icon="/icons/blog.svg"
                         description="I share my passion for data and machine learning."
-                        projects={10} />
+                        link="/Blog" />
                 </div>
                 
                 <div className="flex-full about-text">
                     <h5 className="gray">Intro</h5>
-                    <h1 className="white">Hello, I&#39;m William Marstrand</h1>
-                    <h3 className="white">...</h3>
-                    <p className="gray">...</p>
+                    <h2 className="white">Hello, I&#39;m William Marstrand</h2>
+                    <Code language="python">
+{`def get_info():
+    my_info = {
+        "profession" = "ML & Data Engineer",
+        "experience_years" = 7,
+        "skills" = ["data modeling", "data mining",
+                    "analytics", "software development", 
+                    "problem solving", "collaboration"]
+    }
+    return my_info`}
+                    </Code>
                 </div>
             </div>
 
@@ -41,18 +52,21 @@ type Props = {
     title: string,
     icon: string | StaticImageData,
     description: string,
-    projects: number
+    link: string
 }
 
-function AboutCard ({title, icon, description, projects} : Props) {
+function AboutCard ({title, icon, description, link} : Props) {
     return(
-        <div className="light-bg about-card">
-            <div className="flex justify-space">
-                <h3 className="green">{title}</h3>
-                <Image src={icon} width={28} height={28} alt={title} />
-            </div>
-            <p className="white">{description}</p>
-            <span className="gray">{projects.toString()} projects</span>
-        </div>
+            <Link href={link}>
+                <a>
+                    <div className="light-bg about-card">
+                        <div className="flex justify-space">
+                            <h3 className="green">{title}</h3>
+                            <Image src={icon} width={28} height={28} alt={title} />
+                        </div>
+                        <p className="white">{description}</p>
+                    </div>
+                </a>
+            </Link>
     )
 }

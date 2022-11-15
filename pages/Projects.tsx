@@ -1,10 +1,9 @@
-import type { NextPage } from "next";
 import Head from "next/head";
-import About from "../components/About";
+import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import ProjectCatalog from "../components/ProjectCatalog";
 
-const Home: NextPage = () => {
+export default function Projects() {
   return (
     <>
       <Head>
@@ -25,12 +24,12 @@ const Home: NextPage = () => {
         {/* <meta data-rh="true" property="og:image" content="/images/....png"/> */}
       </Head>
 
-      {/* Header */}
-      <Header />
+      {/* Nav Bar */}
+      <NavBar />
 
       <main>
         {/* About */}
-        <About />
+        <ProjectCatalog />
       </main>
 
       {/* Footer */}
@@ -38,5 +37,3 @@ const Home: NextPage = () => {
     </>
   )
 }
-
-export default Home;

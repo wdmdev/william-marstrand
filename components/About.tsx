@@ -26,9 +26,9 @@ export default function About() {
                     <Code language="python">
 {`def get_info():
     my_info = {
-        "profession" = "ML & Data Engineer",
-        "experience_years" = 7,
-        "skills" = ["data modeling", "data mining",
+        "profession": "ML & Data Engineer",
+        "experience_years": 7,
+        "skills": ["data modeling", "data mining",
                     "analytics", "software development", 
                     "problem solving", "collaboration"]
     }

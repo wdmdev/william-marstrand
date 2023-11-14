@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
 
+
 body {
   padding: 0;
   margin: 0;
@@ -40,6 +41,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .justify-space {
   justify-content: space-between;
+}
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+  }
 }
 section {
   padding: 5rem 5rem;

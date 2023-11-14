@@ -26,24 +26,18 @@ export default function About() {
                     <Code language="python">
 {`def get_info():
     my_info = {
-        "profession": "ML & Data Engineer",
-        "experience_years": 7,
-        "skills": ["data modeling", "data mining",
-                    "analytics", "software development", 
-                    "problem solving", "collaboration"]
+        "profession": "Data Scientist",
+        "education": "M.Sc. in Mathematical Modeling and Computation",
+        "coding_since": 2014,
+        "skills": ["machine learning", "MLOps",
+                    "data modeling", "data mining",
+                    "analytics", "software development"],
     }
     return my_info`}
                     </Code>
                 </div>
             </div>
 
-            {/* <div className="flex partners justify-space">
-                <Image src="/images/partners/wallety.png" height={45} width={180} alt="wallety" />
-                <Image src="/images/partners/artisty.png" height={45} width={180} alt="artisty" />
-                <Image src="/images/partners/khedma-lik.png" height={45} width={180} alt="khedma-lik" />
-                <Image src="/images/partners/directy.png" height={45} width={180} alt="directy" />
-                <Image src="/images/partners/telefy.png" height={45} width={180} alt="telefy" />
-            </div> */}
         </section>
     )
 }

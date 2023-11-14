@@ -91,7 +91,7 @@ nav ul li {
 
 .inner-cover {
   width: 100vw;
-  background-image: url('/public/images/cover.png');
+  background-image: url('/images/cover.png');
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 2rem;

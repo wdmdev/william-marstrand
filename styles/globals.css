@@ -70,10 +70,7 @@ nav ul li {
   font-size: 0.9rem;
   font-weight: 600;
 }
-.header {
-  justify-content: space-between;
-  padding: 1.1rem 5rem 0rem 5rem;
-}
+
 .header p {
   font-size: 0.8rem;
   font-weight: 500;
@@ -90,6 +87,29 @@ nav ul li {
   text-transform: uppercase;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.inner-cover {
+  width: 100vw;
+  background-image: url('/images/cover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 2rem;
+  padding-bottom: 30vh;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-left {
+  align-items: flex-start;
+}
+
+.inner-header {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
 }
 
 /* About */
@@ -135,11 +155,6 @@ nav ul li {
 }
 .partners {
   padding-top: 5rem;
-}
-
-.cover {
-  border-radius: 50%;
-
 }
 
 /* Footer */

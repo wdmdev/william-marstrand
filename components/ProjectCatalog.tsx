@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
 export default function ProjectCatalog() {
@@ -8,14 +9,22 @@ export default function ProjectCatalog() {
             <div className="flex">
                 <div className="flex-full">
                     <ProjectCard
-                        title="P1"
+                        title="Babelfish"
                         icon="/icons/beaker.svg"
-                        description="I generate real life value from data."
+                        description="StarGANv2-VC for language translation and Voice Conversion to preserve speaker characteristics in the translation"
+                        link="https://github.com/wdmdev/Babelfish"
                         />
                     <ProjectCard
-                        title="P2"
+                        title="TGML"
+                        icon="/icons/beaker.svg"
+                        description="Scalable Machine Learning for Temporal Dynamic Graphs"
+                        link="https://github.com/wdmdev/TGML"
+                        />
+                    <ProjectCard
+                        title="Harry Potter Network Analysis"
                         icon="/icons/blog.svg"
-                        description="I share my passion for data and machine learning."
+                        description="Network analysis of the Harry Potter books and the r/harrypotter subreddit"
+                        link="https://wdmdev.github.io/comsocsci2021-project/#/"
                          />
                 </div>
             </div>
@@ -27,17 +36,22 @@ export default function ProjectCatalog() {
 type Props = {
     title: string,
     icon: string | StaticImageData,
-    description: string
+    description: string,
+    link: string
 }
 
-function ProjectCard ({title, icon, description} : Props) {
+function ProjectCard ({title, icon, description, link} : Props) {
     return(
-        <div className="light-bg about-card">
-            <div className="flex justify-space">
-                <h3 className="green">{title}</h3>
-                <Image src={icon} width={28} height={28} alt={title} />
-            </div>
-            <p className="white">{description}</p>
-        </div>
+        <Link href={link}>
+            <a>
+                <div className="light-bg about-card">
+                    <div className="flex justify-space">
+                        <h3 className="green">{title}</h3>
+                        <Image src={icon} width={28} height={28} alt={title} />
+                    </div>
+                    <p className="white">{description}</p>
+                </div>
+            </a>
+        </Link>
     )
 }

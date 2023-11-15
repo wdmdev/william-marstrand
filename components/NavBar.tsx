@@ -20,7 +20,7 @@ export default function NavBar() {
                     <Link href="/william-marstrand">{"< Home />"}</Link>
                 </li>
                 <li>
-                    <Link href="/#about">About Me.</Link>
+                    <Link href="/william-marstrand/#about">About Me.</Link>
                 </li>
             </ul>
         </nav>

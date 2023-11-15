@@ -12,12 +12,12 @@ export default function About() {
                         title="Projects"
                         icon="/icons/beaker.svg"
                         description="I generate real life value from data."
-                        link="/Projects" />
+                        link="/william-marstrand/Projects" />
                     <AboutCard
                         title="Blog"
                         icon="/icons/blog.svg"
                         description="I share my passion for data and machine learning."
-                        link="/Blog" />
+                        link="/william-marstrand/Blog" />
                 </div>
                 
                 <div className="flex-full about-text">

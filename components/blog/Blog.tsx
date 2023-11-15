@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 
 export default function Blog() {
     return (
-        <section id="blog" className="dark-bg">
+        <section id="blog" className="dark-bg blogs">
             <h5 className="gray">Blog Posts</h5>
             <div className="flex">
                 <div className="flex-full">

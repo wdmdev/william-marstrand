@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 
 export default function ProjectCatalog() {
     return (
-        <section id="projects" className="dark-bg">
+        <section id="projects" className="dark-bg projects">
             <h5 className="gray">Projects</h5>
             <div className="flex">
                 <div className="flex-full">

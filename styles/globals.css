@@ -157,6 +157,14 @@ nav ul li {
   padding-top: 5rem;
 }
 
+.projects {
+  height: 100vh;
+}
+
+.blogs {
+  height: 100vh;
+}
+
 /* Footer */
 footer {
   padding: 2rem 5rem;

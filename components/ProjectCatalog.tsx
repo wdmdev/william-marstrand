@@ -22,7 +22,7 @@ export default function ProjectCatalog() {
                         />
                     <ProjectCard
                         title="Harry Potter Network Analysis"
-                        icon="/icons/blog.svg"
+                        icon="/icons/beaker.svg"
                         description="Network analysis of the Harry Potter books and the r/harrypotter subreddit"
                         link="https://wdmdev.github.io/comsocsci2021-project/#/"
                          />

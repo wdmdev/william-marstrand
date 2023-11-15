@@ -7,7 +7,7 @@ export default function Blog() {
             <h5 className="gray">Blog Posts</h5>
             <div className="flex">
                 <div className="flex-full">
-                    <PostCard
+                    {/* <PostCard
                         title="Post 1"
                         icon="/icons/beaker.svg"
                         description="Placeholder ..."
@@ -16,7 +16,7 @@ export default function Blog() {
                         title="Post 2"
                         icon="/icons/blog.svg"
                         description="Placeholder ..."
-                         />
+                         /> */}
                 </div>
             </div>
 

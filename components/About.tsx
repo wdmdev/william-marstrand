@@ -11,7 +11,7 @@ export default function About() {
                     <AboutCard
                         title="Projects"
                         icon="/icons/beaker.svg"
-                        description="I generate real life value from data."
+                        description="Modeling complexity in data-driven projects."
                         link="/william-marstrand/Projects" />
                     <AboutCard
                         title="Blog"

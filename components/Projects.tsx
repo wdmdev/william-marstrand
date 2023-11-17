@@ -2,12 +2,13 @@ import React from "react";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
-export default function ProjectCatalog() {
+export default function Projects() {
     return (
-        <section id="projects" className="dark-bg projects">
-            <h5 className="gray">Projects</h5>
-            <div className="flex">
-                <div className="flex-full">
+        <section id="projects" className="dark-bg">
+            <div className="flex-full">
+                <h5 className="gray">Projects</h5>
+                <h2 className="white">Highlighted Projects</h2>
+                <div>
                     <ProjectCard
                         title="Babelfish"
                         icon="/icons/beaker.svg"
@@ -44,7 +45,7 @@ function ProjectCard ({title, icon, description, link} : Props) {
     return(
         <Link href={link}>
             <a>
-                <div className="light-bg about-card">
+                <div className="light-bg project-card">
                     <div className="flex justify-space">
                         <h3 className="green">{title}</h3>
                         <Image src={icon} width={28} height={28} alt={title} />

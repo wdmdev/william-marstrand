@@ -10,6 +10,12 @@ export default function Projects() {
                 <h2 className="white">Highlighted Projects</h2>
                 <div>
                     <ProjectCard
+                        title="DeliNet"
+                        icon="/icons/beaker.svg"
+                        description="Deeplearning project for food image to recipes text retrival using CLIP."
+                        link="https://github.com/wdmdev/DeliNet"
+                         />
+                    <ProjectCard
                         title="Babelfish"
                         icon="/icons/beaker.svg"
                         description="StarGANv2-VC for language translation and Voice Conversion to preserve speaker characteristics in the translation"
@@ -21,12 +27,6 @@ export default function Projects() {
                         description="Scalable Machine Learning for Temporal Dynamic Graphs"
                         link="https://github.com/wdmdev/TGML"
                         />
-                    <ProjectCard
-                        title="Harry Potter Network Analysis"
-                        icon="/icons/beaker.svg"
-                        description="Network analysis of the Harry Potter books and the r/harrypotter subreddit"
-                        link="https://wdmdev.github.io/comsocsci2021-project/#/"
-                         />
                 </div>
             </div>
 

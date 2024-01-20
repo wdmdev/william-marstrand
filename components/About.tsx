@@ -70,26 +70,3 @@ export default function About() {
         </section>
     )
 }
-
-// type Props = {
-//     title: string,
-//     icon: string | StaticImageData,
-//     description: string,
-//     link: string
-// }
-
-// function AboutCard ({title, icon, description, link} : Props) {
-//     return(
-//             <Link href={link}>
-//                 <a>
-//                     <div className="light-bg about-card">
-//                         <div className="flex justify-space">
-//                             <h3 className="green">{title}</h3>
-//                             <Image src={icon} width={28} height={28} alt={title} />
-//                         </div>
-//                         <p className="white">{description}</p>
-//                     </div>
-//                 </a>
-//             </Link>
-//     )
-// }

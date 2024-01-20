@@ -2,13 +2,11 @@
  * @type {import('next').NextConfig} 
  */
  const nextConfig   = {
+  output: 'export',
+  basePath: '/william-marstrand',
   images: {
-    loader: 'default',
-    path: '',
     unoptimized: true,
   },
-  assetPrefix: './',
-  output: 'export'
 };
 
 module.exports = nextConfig;

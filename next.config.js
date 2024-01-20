@@ -1,14 +1,14 @@
-/** 
- * @type {import('next').NextConfig} 
- */
+// @ts-check
+
+/**
+ * @type {import('next').NextConfig}
+ **/
 const nextConfig = {
+  output: "export",
+  basePath: "/william-marstrand",
   images: {
-    loader: 'akamai',
-    path: '',
     unoptimized: true,
   },
-  output: 'export',
-  assetPrefix: './',
 };
 
 module.exports = nextConfig;

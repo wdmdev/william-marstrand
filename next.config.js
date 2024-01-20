@@ -5,6 +5,8 @@
   output: 'export',
   basePath: '/william-marstrand',
   images: {
+    loader: 'default',
+    path: '/william-marstrand',
     unoptimized: true,
   },
 };

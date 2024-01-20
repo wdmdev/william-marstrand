@@ -9,7 +9,7 @@ export default function About() {
             <div className="flex">
                 <div className="white profile-picture flex column">
                     <Image 
-                        src="/images/profile.jpg" 
+                        src="/william-marstrand/images/profile.jpg" 
                         alt="William Marstrand"
                         width={250} 
                         height={250} 
@@ -17,15 +17,15 @@ export default function About() {
                     />
                     <div className="flex justify-space profile-refs">
                             <a href="https://www.linkedin.com/in/william-marstrand-07725aa2/" target="_blank" rel="noreferrer">
-                                <Image src="/icons/linkedin.svg" width={24} height={24} alt="linkedin-icon" />
+                                <Image src="/william-marstrand/icons/linkedin.svg" width={24} height={24} alt="linkedin-icon" />
                             </a>
                         <p>&nbsp;|&nbsp;</p>
-                            <a href="/files/cv-william-marstrand.pdf" target="_blank" rel="noreferrer" className="link">
+                            <a href="/william-marstrand/files/cv-william-marstrand.pdf" target="_blank" rel="noreferrer" className="link">
                                 CV
                             </a>
                         <p>&nbsp;|&nbsp;</p>
                             <a href="https://github.com/wdmdev" target="_blank" rel="noreferrer">
-                                <Image src="/icons/github.svg" width={24} height={24} alt="github-icon" />
+                                <Image src="/william-marstrand/icons/github.svg" width={24} height={24} alt="github-icon" />
                             </a>
                     </div>
                 </div>

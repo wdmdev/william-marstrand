@@ -6,6 +6,7 @@
     loader: 'akamai',
     path: '',
     unoptimized: true,
+    assetPrefix: './'
   },
   output: 'export',
 };

@@ -7,6 +7,7 @@
     path: '',
   },
   assetPrefix: './',
+  output: 'export',
 };
 
 export default nextConfig;

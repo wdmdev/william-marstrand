@@ -11,19 +11,19 @@ export default function Projects() {
                 <div>
                     <ProjectCard
                         title="DeliNet"
-                        icon="/icons/beaker.svg"
+                        icon="/william-marstrand/icons/beaker.svg"
                         description="Deeplearning project for food image to recipes text retrival using CLIP."
                         link="https://github.com/wdmdev/DeliNet"
                          />
                     <ProjectCard
                         title="Babelfish"
-                        icon="/icons/beaker.svg"
+                        icon="/william-marstrand/icons/beaker.svg"
                         description="StarGANv2-VC for language translation and Voice Conversion to preserve speaker characteristics in the translation"
                         link="https://github.com/wdmdev/Babelfish"
                         />
                     <ProjectCard
                         title="TGML"
-                        icon="/icons/beaker.svg"
+                        icon="/william-marstrand/icons/beaker.svg"
                         description="Scalable Machine Learning for Temporal Dynamic Graphs"
                         link="https://github.com/wdmdev/TGML"
                         />

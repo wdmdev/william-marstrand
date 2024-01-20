@@ -7,7 +7,7 @@ export default function NavBar() {
         <nav className="flex light-bg justify-space sticky-nav">
             <div>
                 <div className="logo white">
-                    <Link href="/william-marstrand">William Marstrand</Link>
+                    <Link href="">William Marstrand</Link>
                 </div>
                 <div>
                     <a className="green" href="mailto:wdmdevelop@gmail.com">wdmdevelop@gmail.com</a>
@@ -16,13 +16,13 @@ export default function NavBar() {
 
             <ul className="flex white">
                 <li className="green">
-                    <Link href="/william-marstrand">{"< Home />"}</Link>
+                    <Link href="">{"< Home />"}</Link>
                 </li>
                 <li>
-                    <Link href="/william-marstrand/#projects">Projects</Link>
+                    <Link href="#projects">Projects</Link>
                 </li>
                 <li>
-                    <Link href="/william-marstrand/#about">About Me.</Link>
+                    <Link href="#about">About Me.</Link>
                 </li>
             </ul>
         </nav>

@@ -11,12 +11,12 @@ export default function Footer() {
             <ul className="flex">
                 <li>
                     <a href="https://www.linkedin.com/in/william-marstrand-07725aa2/" target="_blank" rel="noreferrer">
-                        <Image src="william-marstrand/icons/linkedin.svg" width={48} height={48} alt="linkedin-icon" />
+                        <Image src="/william-marstrand/icons/linkedin.svg" width={48} height={48} alt="linkedin-icon" />
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/wdmdev" target="_blank" rel="noreferrer">
-                        <Image src="william-marstrand/icons/github.svg" width={48} height={48} alt="github-icon" />
+                        <Image src="/william-marstrand/icons/github.svg" width={48} height={48} alt="github-icon" />
                     </a>
                 </li>
             </ul>

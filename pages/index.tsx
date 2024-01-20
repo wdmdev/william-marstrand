@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>William - ML and Data Engineer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/william-marstrand/favicon.ico" />
         <meta name="author" content="William Marstrand" />
         <meta name="keywords" content="ReactJS, NextJS" />
         <meta name="description" content="I am a ML and data engineer." />

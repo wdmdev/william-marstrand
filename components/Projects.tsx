@@ -43,7 +43,7 @@ type Props = {
 
 function ProjectCard ({title, icon, description, link} : Props) {
     return(
-        <Link href={link}>
+        <a href={link} target="_blank" rel="noopener noreferrer">
             <div className="light-bg project-card">
                 <div className="flex justify-space">
                     <h3 className="green">{title}</h3>
@@ -51,6 +51,6 @@ function ProjectCard ({title, icon, description, link} : Props) {
                 </div>
                 <p className="white">{description}</p>
             </div>
-        </Link>
+        </a>
     )
 }

@@ -7,8 +7,7 @@
     path: '',
     unoptimized: true,
   },
-  assetPrefix: '/william-marstrand/',
-  output: 'export',
+  assetPrefix: './',
 };
 
 export default nextConfig;

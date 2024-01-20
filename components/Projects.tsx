@@ -44,15 +44,13 @@ type Props = {
 function ProjectCard ({title, icon, description, link} : Props) {
     return(
         <Link href={link}>
-            <a>
-                <div className="light-bg project-card">
-                    <div className="flex justify-space">
-                        <h3 className="green">{title}</h3>
-                        <Image src={icon} width={28} height={28} alt={title} />
-                    </div>
-                    <p className="white">{description}</p>
+            <div className="light-bg project-card">
+                <div className="flex justify-space">
+                    <h3 className="green">{title}</h3>
+                    <Image src={icon} width={28} height={28} alt={title} />
                 </div>
-            </a>
+                <p className="white">{description}</p>
+            </div>
         </Link>
     )
 }

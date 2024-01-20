@@ -9,6 +9,7 @@
     path: '/william-marstrand',
     unoptimized: true,
   },
+  assetPrefix: './'
 };
 
 module.exports = nextConfig;

@@ -6,8 +6,8 @@
     loader: 'akamai',
     path: '',
     unoptimized: true,
-    assetPrefix: './'
   },
+  assetPrefix: './',
   output: 'export',
 };
 

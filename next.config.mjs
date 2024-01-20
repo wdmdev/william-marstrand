@@ -7,7 +7,7 @@
     path: '',
     unoptimized: true,
   },
-  assetPrefix: './',
+  assetPrefix: '/william-marstrand/',
   output: 'export',
 };
 

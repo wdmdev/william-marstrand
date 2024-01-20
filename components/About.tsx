@@ -20,10 +20,13 @@ export default function About() {
                                 <Image src="/icons/linkedin.svg" width={24} height={24} alt="linkedin-icon" />
                             </a>
                         <p>&nbsp;|&nbsp;</p>
+                            <a href="/files/cv-william-marstrand.pdf" target="_blank" rel="noreferrer" className="link">
+                                CV
+                            </a>
+                        <p>&nbsp;|&nbsp;</p>
                             <a href="https://github.com/wdmdev" target="_blank" rel="noreferrer">
                                 <Image src="/icons/github.svg" width={24} height={24} alt="github-icon" />
                             </a>
-
                     </div>
                 </div>
                 <div className="flex-full about-text">

@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6, p {
 .green {
   color: #4dba87;
 }
+.link:hover {
+  color: #4dba87;
+}
 .flex {
   display: flex;
   flex-direction: row;

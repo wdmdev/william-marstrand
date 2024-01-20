@@ -5,7 +5,7 @@
  **/
 const nextConfig = {
   output: "export",
-  basePath: "/william-marstrand",
+  assetPrefix: 'william-marstrand',
   images: {
     unoptimized: true,
   },

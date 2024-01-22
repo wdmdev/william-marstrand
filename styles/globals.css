@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
 
+html, body {
+  overflow-x: hidden;
+}
 
 body {
   padding: 0;
@@ -105,11 +108,13 @@ nav ul li {
 }
 
 .profile-picture {
-  padding-right: 2rem;
+  align-items: center;
 }
 
 .profile-refs {
-  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .center {
@@ -216,6 +221,17 @@ footer ul li {
     align-items: center;
     justify-content: center;
   }
+  .justify-space {
+    justify-content: flex-start;
+  }
+  /*Code */
+  .code-block {
+  overflow-x: auto;
+  white-space: nowrap;
+  word-break: break-all;
+  font-size: 14px; /* Adjust as needed */
+  }
+  
   /* Header */
   nav {
     padding: 1rem 2rem;
@@ -232,7 +248,11 @@ footer ul li {
   section {
     padding: 1rem 2rem;
   }
+
   /* About */
+  .profile-picture {
+    margin-top: 120px;
+  }
   .about-card {
     width: 100%;
   }

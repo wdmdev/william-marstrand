@@ -14,7 +14,7 @@ export default function About() {
                         height={250} 
                         className="border-radius" 
                     />
-                    <div className="flex justify-space profile-refs">
+                    <div className="profile-refs">
                             <a href="https://www.linkedin.com/in/william-marstrand-07725aa2/" target="_blank" rel="noreferrer">
                                 <Image src="/william-marstrand/icons/linkedin.svg" width={24} height={24} alt="linkedin-icon" />
                             </a>
@@ -52,7 +52,7 @@ export default function About() {
             <br />
             <br />
             <br />
-            <div className="center flex">
+            <div className="code-block">
             <Code language="python">
 {`def get_quick_info():
     my_info = {

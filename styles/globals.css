@@ -109,6 +109,7 @@ nav ul li {
 
 .profile-picture {
   align-items: center;
+  margin-right: 50px;
 }
 
 .profile-refs {
@@ -252,6 +253,7 @@ footer ul li {
   /* About */
   .profile-picture {
     margin-top: 120px;
+    margin-right: 0px;
   }
   .about-card {
     width: 100%;
